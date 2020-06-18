@@ -1,0 +1,1 @@
+[{"status": "success", "parameter": {"hash": "244EF3ABC66CABC851A5F594F5292B62", "context": {"guid": "143fc086-ea39-42bc-8ca6-c287a9b64027", "artifact_id": 0, "parent_action_run": []}}, "message": "Block hash action succeeded. It might take some time for blacklisting to take effect.", "data": [], "summary": {}}]
