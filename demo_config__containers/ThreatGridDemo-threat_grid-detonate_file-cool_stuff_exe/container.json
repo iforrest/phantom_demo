@@ -1,1 +1,163 @@
-{"phases": [], "container": {"node_guid": null, "in_case": false, "sensitivity": "amber", "create_time": "2019-09-13T07:25:41.602378Z", "tenant_id": 0, "role_id": null, "id": 56, "custom_fields": {"action id": "threat grid detonate file cool stuff exe", "Auto_Response_Received": ""}, "asset_id": null, "close_time": "2019-10-08T16:42:18.498052Z", "open_time": null, "status_id": 3, "container_type": "default", "closing_owner_id": 1, "current_phase_id": null, "due_time": "2019-09-13T19:25:13.533000Z", "version": 1, "workflow_name": "", "owner_id": 1, "status": "closed", "owner_name": "admin", "hash": "0fcba2a5a812583b7697095862d7acb1", "description": "detonate file", "tags": [], "start_time": "2019-09-13T07:25:41.630021Z", "severity_id": "medium", "kill_chain": null, "artifact_update_time": "2019-09-13T07:38:19.865687Z", "artifact_count": 1, "parent_container_id": null, "data": {}, "name": "Threat Grid Demo", "ingest_app_id": null, "label": "demo_configuration", "source_data_identifier": "317bbd58-a6e5-4ca9-a8f5-851accccd598", "end_time": null, "closing_rule_run_id": null, "container_update_time": "2019-10-08T16:44:29.336288Z"}, "attachments": [{"user_id": 1, "name": "threat-grid-detonate-file.json", "task_id": null, "container_id": 56, "vault_document_id": 23, "create_time": "2019-09-13T07:26:04.807628Z", "id": 24}, {"user_id": 1, "name": "threatgrid-replacerizer.json", "task_id": null, "container_id": 56, "vault_document_id": 24, "create_time": "2019-09-13T07:31:40.904438Z", "id": 23}], "artifacts": [{"in_case": false, "create_time": "2019-09-13T07:30:00.061593Z", "id": 406, "parent_artifact_id": null, "label": "event", "version": 1, "has_note": false, "type": null, "owner_id": 1, "cef": {"file_name": "cool stuff.jpg                            .exe", "replacerizer": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c", "dummy_file_vault_id": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3"}, "update_time": "2019-09-13T07:38:19.845483Z", "hash": "98683a73f740fe5cc7d088d75acc5329", "description": null, "tags": [], "cef_types": {}, "start_time": "2019-09-13T07:30:00.069292Z", "container_id": 56, "severity_id": "medium", "kill_chain": null, "playbook_run_id": null, "parent_container_id": null, "data": {}, "name": "matching criteria", "ingest_app_id": null, "source_data_identifier": "ce8f394d-48df-4da6-9d1e-a95fb227deff", "end_time": null}], "vault_documents": [{"first_seen_time": "2019-09-13T07:26:04.828842Z", "hash": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3", "version": 1, "tags": [], "deleted": false, "contains": ["vault id"], "sources": [{"user_id": 3}], "meta": {"size": 229328, "sha256": "e87916eca09348e4274f1d5d430949bef8cbb92184dd2e0ed30f6eaa2776193b", "contains": ["vault id"], "sha1": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3", "md5": "52331426b041dedc240f9548674396b5"}, "names": ["threat-grid-detonate-file.json"], "id": 23, "size": 229328}, {"first_seen_time": "2019-09-13T07:31:40.910613Z", "hash": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c", "version": 1, "tags": [], "deleted": false, "contains": ["vault id"], "sources": [{"user_id": 3}], "meta": {"size": 68, "sha256": "94d84d08956fa2cc62833608d8239da90a5c59f063499222d4f7eb04758eb768", "contains": ["vault id"], "sha1": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c", "md5": "690c19a179605123ca292264ab916d21"}, "names": ["threatgrid-replacerizer.json"], "id": 24, "size": 68}], "notes": [], "comments": [], "evidence": []}
+{
+    "phases": [],
+    "container": {
+        "node_guid": null,
+        "in_case": false,
+        "sensitivity": "amber",
+        "create_time": "2019-09-13T07:25:41.602378Z",
+        "tenant_id": 0,
+        "role_id": null,
+        "id": 56,
+        "custom_fields": {
+            "action id": "threat grid detonate file cool stuff exe",
+            "Auto_Response_Received": ""
+        },
+        "asset_id": null,
+        "close_time": "2019-10-08T16:42:18.498052Z",
+        "open_time": null,
+        "status_id": 3,
+        "container_type": "default",
+        "closing_owner_id": 1,
+        "current_phase_id": null,
+        "due_time": "2019-09-13T19:25:13.533000Z",
+        "version": 1,
+        "workflow_name": "",
+        "owner_id": 1,
+        "status": "closed",
+        "owner_name": "admin",
+        "hash": "0fcba2a5a812583b7697095862d7acb1",
+        "description": "detonate file",
+        "tags": [],
+        "start_time": "2019-09-13T07:25:41.630021Z",
+        "severity_id": "medium",
+        "kill_chain": null,
+        "artifact_update_time": "2019-09-13T07:38:19.865687Z",
+        "artifact_count": 1,
+        "parent_container_id": null,
+        "data": {},
+        "name": "Thret Grid Demo",
+        "ingest_app_id": null,
+        "label": "demo_configuration",
+        "source_data_identifier": "317bbd58-a6e5-4ca9-a8f5-851accccd598",
+        "end_time": null,
+        "closing_rule_run_id": null,
+        "container_update_time": "2019-10-08T16:44:29.336288Z"
+    },
+    "attachments": [
+        {
+            "user_id": 1,
+            "name": "threat-grid-detonate-file.json",
+            "task_id": null,
+            "container_id": 56,
+            "vault_document_id": 23,
+            "create_time": "2019-09-13T07:26:04.807628Z",
+            "id": 24
+        },
+        {
+            "user_id": 1,
+            "name": "threatgrid-replacerizer.json",
+            "task_id": null,
+            "container_id": 56,
+            "vault_document_id": 24,
+            "create_time": "2019-09-13T07:31:40.904438Z",
+            "id": 23
+        }
+    ],
+    "artifacts": [
+        {
+            "in_case": false,
+            "create_time": "2019-09-13T07:30:00.061593Z",
+            "id": 406,
+            "parent_artifact_id": null,
+            "label": "event",
+            "version": 1,
+            "has_note": false,
+            "type": null,
+            "owner_id": 1,
+            "cef": {
+                "file_name": "cool stuff.jpg                            .exe",
+                "replacerizer": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c",
+                "dummy_file_vault_id": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3"
+            },
+            "update_time": "2019-09-13T07:38:19.845483Z",
+            "hash": "98683a73f740fe5cc7d088d75acc5329",
+            "description": null,
+            "tags": [],
+            "cef_types": {},
+            "start_time": "2019-09-13T07:30:00.069292Z",
+            "container_id": 56,
+            "severity_id": "medium",
+            "kill_chain": null,
+            "playbook_run_id": null,
+            "parent_container_id": null,
+            "data": {},
+            "name": "matching criteria",
+            "ingest_app_id": null,
+            "source_data_identifier": "ce8f394d-48df-4da6-9d1e-a95fb227deff",
+            "end_time": null
+        }
+    ],
+    "vault_documents": [
+        {
+            "first_seen_time": "2019-09-13T07:26:04.828842Z",
+            "hash": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3",
+            "version": 1,
+            "tags": [],
+            "deleted": false,
+            "contains": [
+                "vault id"
+            ],
+            "sources": [
+                {
+                    "user_id": 3
+                }
+            ],
+            "meta": {
+                "size": 229328,
+                "sha256": "e87916eca09348e4274f1d5d430949bef8cbb92184dd2e0ed30f6eaa2776193b",
+                "contains": [
+                    "vault id"
+                ],
+                "sha1": "d10c35c154a7f02aa07b059a730cbbc331a6e4b3",
+                "md5": "52331426b041dedc240f9548674396b5"
+            },
+            "names": [
+                "threat-grid-detonate-file.json"
+            ],
+            "id": 23,
+            "size": 229328
+        },
+        {
+            "first_seen_time": "2019-09-13T07:31:40.910613Z",
+            "hash": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c",
+            "version": 1,
+            "tags": [],
+            "deleted": false,
+            "contains": [
+                "vault id"
+            ],
+            "sources": [
+                {
+                    "user_id": 3
+                }
+            ],
+            "meta": {
+                "size": 68,
+                "sha256": "94d84d08956fa2cc62833608d8239da90a5c59f063499222d4f7eb04758eb768",
+                "contains": [
+                    "vault id"
+                ],
+                "sha1": "3fa4f065d4cd323f27228c5ca5bd23e6c5724e5c",
+                "md5": "690c19a179605123ca292264ab916d21"
+            },
+            "names": [
+                "threatgrid-replacerizer.json"
+            ],
+            "id": 24,
+            "size": 68
+        }
+    ],
+    "notes": [],
+    "comments": [],
+    "evidence": []
+}
