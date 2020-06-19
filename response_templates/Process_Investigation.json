@@ -6,7 +6,7 @@
     "is_default": true,
     "create_time": "2020-04-16T17:02:21.938074Z",
     "is_note_required": false,
-    "phases: [
+    "phases": 
     [
         {
             "tasks": [
