@@ -18,7 +18,6 @@
         "kill_chain": null,
         "artifact_update_time": "2020-04-13T18:22:43.591941Z",
         "artifact_count": 1,
-        "parent_container_id": null,
         "data": {},
         "name": "Slack Sandbox Action Event",
         "ingest_app_id": null,
