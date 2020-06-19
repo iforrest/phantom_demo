@@ -76,8 +76,7 @@
             "owner_id": 1,
             "cef": {
                 "url": "http://slpunk.com/passwordreset",
-                "replacerizer": "2ded153c8f8bd71a57999b73b80de3f139913800",
-                "dummy_file_vault_id": "55bbe755eac562122796fc93d6be930e735e4aca"
+                "dummy_file_vault_id": "f5667446cd3dc2c4619b77c8fb583cb4e7485f20"
             },
             "update_time": "2019-09-18T05:12:50.697024Z",
             "hash": "a7e609098f1016b5930908688db7295e",
