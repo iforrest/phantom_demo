@@ -1,0 +1,1 @@
+[{"status": "success", "parameter": {"ip_hostname": "MSSQL2005WIN2K8", "context": {"guid": "8be2151a-8281-4f57-9f79-6c3826c683dd", "artifact_id": 0, "parent_action_run": []}}, "message": "Unquarantine action succeeded. It might take some time for endpoint to take effect.", "data": [], "summary": {}}]

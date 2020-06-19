@@ -1,0 +1,1 @@
+[{"status": "success", "parameter": {"ip_hostname": "MSSQL2005WIN2K8", "context": {"guid": "419bf939-c675-4fc6-a169-44f4ecd95995", "artifact_id": 0, "parent_action_run": []}}, "message": "Quarantine action succeeded. It might take some time for endpoint to get isolated.", "data": [], "summary": {}}]
