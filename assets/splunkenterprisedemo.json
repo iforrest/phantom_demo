@@ -8,8 +8,10 @@
         "on_poll_command": "search",
         "max_container": 100,
         "ingest": {
+            "interval_mins": "60",
+            "poll": true,
             "container_label": "splunk_events",
-            "start_time_epoch_utc": null
+            "start_time_epoch_utc": 1570522324
         },
         "retry_count": "3",
         "verify_server_cert": false,
