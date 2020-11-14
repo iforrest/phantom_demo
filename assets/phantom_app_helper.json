@@ -5,7 +5,7 @@
     "disabled": false,
     "configuration": {
         "_reserved_environment_variables": {},
-        "verify_certificate": true,
+        "verify_certificate": false,
         "auth_token": "$$$PH_AUTH_TOKEN$$$",
         "phantom_server": "$$$PH_SERVER_NAME$$$"
     },
