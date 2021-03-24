@@ -1,0 +1,64 @@
+{
+    "name": "Risk Investigation",
+    "description": "This response template is designed to guide an analyst in performing the initial triage of an investigation",
+    "status": "published",
+    "is_default": false,
+    "is_note_required": false,
+    "create_time": "2021-01-28T23:10:13.671258Z",
+    "modified_time": "2021-03-11T14:54:27.949048Z",
+    "phases": [
+        {
+            "name": "Initial Triage",
+            "order": 1,
+            "create_time": "2021-01-28T23:10:13.675982Z",
+            "modified_time": "2021-03-11T14:54:27.943802Z",
+            "sla": null,
+            "sla_type": "minutes",
+            "tasks": [
+            {
+                "name": "Gather Information, Intelligence, and Context",
+                "order": 1,
+                "owner": null,
+                "role": null,
+                "description": "- Locate all relevant artifacts to the investigation, and mark as evidence where appropriate. \n- Perform additional analysis using available intelligence gathering sources\n- Search across Splunk logs for context related to the artifacts seen in this investigation.",
+                "suggestions": {
+                    "actions": [],
+                    "playbooks": [
+                        {
+                            "scm": "internal-oar-content",
+                            "playbook": "Risk Notable - Import Data"
+                        },
+                        {
+                            "scm": "internal-oar-content",
+                            "playbook": "Risk Notable - Gather Context"
+                        }
+                    ]
+                },
+                "create_time": "2021-01-28T23:10:13.680132Z",
+                "modified_time": "2021-03-11T14:54:27.946159Z",
+                "is_note_required": false,
+                "sla": null,
+                "sla_type": "minutes"
+            },
+            {
+            "name": "Determine Verdict",
+            "order": 2,
+            "owner": null,
+            "role": null,
+            "description": "Make a verdict on the investigation and decide to remediate or close. Leave documentation as to why. Tag items as appropriate. Change status if closing.",
+            "suggestions": {
+                "playbooks": [
+                    {
+                        "scm": "internal-oar-content",
+                        "playbook": "Risk Notable - Verdict"
+                    }
+                ]
+            },
+            "create_time": "2021-01-28T23:19:20.229963Z",
+            "modified_time": "2021-03-11T14:54:27.947664Z",
+            "is_note_required": false,
+            "sla": null,
+            "sla_type": "minutes"
+        }
+    ]
+}

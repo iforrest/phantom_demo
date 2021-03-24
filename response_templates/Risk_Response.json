@@ -1,0 +1,54 @@
+{
+    "name": "Risk Response",
+    "description": "Containment based on entity exposed and actions available",
+    "status": "published",
+    "is_default": false,
+    "is_note_required": false,
+    "create_time": "2021-01-28T23:13:03.672545Z",
+    "modified_time": "2021-03-11T14:54:44.764917Z",
+    "phases": [
+        {
+            "name": "Contain and Respond",
+            "order": 1,
+            "create_time": "2021-01-28T23:13:03.675139Z",
+            "modified_time": "2021-03-11T14:54:44.759907Z",
+            "sla": null,
+            "sla_type": "minutes",
+            "tasks": [
+                {
+                    "name": "Contain User or Device",
+                    "order": 1,
+                    "owner": null,
+                    "role": null,
+                    "description": "Locate information about affected entity and isolate using available tools",
+                    "suggestions": {
+                        "playbooks": [
+                            {
+                                "scm": "internal-oar-content",
+                                "playbook": "Risk Notable - Contain All"
+                            }
+                        ]
+                    },
+                    "create_time": "2021-01-28T23:13:03.676766Z",
+                    "modified_time": "2021-03-11T14:54:44.762131Z",
+                    "is_note_required": false,
+                    "sla": null,
+                    "sla_type": "minutes"
+                },
+                {
+                    "name": "Block Indicators",
+                    "order": 2,
+                    "owner": null,
+                    "role": null,
+                    "description": "Block all indicators on security tools and add to Threat Intelligence feeds",
+                    "suggestions": {},
+                    "create_time": "2021-01-28T23:13:03.677390Z",
+                    "modified_time": "2021-03-11T14:54:44.763572Z",
+                    "is_note_required": false,
+                    "sla": null,
+                    "sla_type": "minutes"
+                }
+            ]
+        }
+    ]
+}

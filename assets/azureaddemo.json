@@ -1,0 +1,26 @@
+{
+	"tags": [],
+	"id": 16,
+	"configuration": {
+	"client_id": "1",
+	"tenant_id": "1",
+	"client_secret": "obLs12LCAdkLi29Tkbv4OQ==",
+	"_reserved_environment_variables": {}
+	},
+	"description": "",
+	"disabled": false,
+	"name": "azure_ad",
+	"concurrency_limit": 1,
+	"primary_voting": 0,
+	"product_name": "Azure AD Graph Demo",
+	"product_vendor": "Microsoft",
+	"product_version": "",
+	"secondary_voting": 0,
+	"token": null,
+	"type": "identity management",
+	"version": 1,
+	"validation": {},
+	"effective_user": 2,
+	"action_whitelist": {},
+	"tenants": []
+}
